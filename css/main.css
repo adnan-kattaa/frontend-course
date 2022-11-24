@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* start html main heading h1-heading */
+.h1-back{
+    display: flex;
+    background-color: rgb(233, 233, 233);
+}
+.html-logo{
+    width: auto;
+    height:47px;
+    margin-left: 3px;
+    opacity:calc(96%);
+}
+
+.h1-heading {
+    background-color:rgba(241, 101, 41, 0.9); 
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px 10px ;
+    width: 300px;
+    margin-bottom: 0px;
+
+}
+/* end html main heading */
+
+/* start body container */
+.body-container{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding:5px 20px ;
+    border-top: rgb(247, 245, 245);
+    border-bottom: rgba(241, 101, 41, 0.9);
+    border-left: rgb(211, 211, 211);
+    border-right: rgb(211, 211, 211);
+    background-color: rgb(247, 245, 245);
+    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 10px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    
+    
+
+}
+
+
+/* end body container */
+
+/* start html home ol li list */
+.home-list {
+    color: rgb(129, 6, 211); 
+    font-size:30px;
+    position: relative;
+    
+}
+
+
+.home-list :only-of-type span {
+    color: rgb(4, 158, 163); 
+    padding: 20px;  
+} 
+
+
+.asd ::before{
+    content: "";
+    width: 0;
+    height: 0;
+    left: 35px;
+    position: absolute;
+    margin: 7px 0px 0px 5px;
+    border-width: 10px ;
+    border-style: solid;
+    border-color: transparent transparent transparent  green;
+}
+
+.home-list a {
+    text-decoration: none;
+    color: rgb(4, 158, 163);
+    padding: 20px;   
+}
+
+
+.home-list a:hover {
+    color: rgb(255, 148, 27);
+    font-weight: bold;
+    text-decoration: underline; 
+}
+
