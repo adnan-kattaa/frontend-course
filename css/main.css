@@ -2,11 +2,23 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+:root {
+    --home     :  rgba(241, 101, 41, 0.9);
+    --ol       :  rgb(129, 6, 211);
+    --li       :  rgb(4, 158, 163);
+    --triangle :  rgb(20, 190, 20);
+    --orange   :  rgb(255, 148, 27);
+
+
+}
+
 /* start html main heading h1-heading */
 .h1-back{
     display: flex;
     background-color: rgb(233, 233, 233);
 }
+
 .html-logo{
     width: auto;
     height:47px;
@@ -22,10 +34,28 @@
     margin-left: auto;
     margin-right: auto;
     padding:5px 10px ;
-    width: 300px;
+    width:auto;
     margin-bottom: 0px;
 
 }
+
+.home-bottom {
+    background-color:rgba(241, 101, 41, 0.9); 
+    margin-right: 60px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    padding:5px 10px ;    
+}
+
+.home-bottom a {
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
 /* end html main heading */
 
 /* start body container */
@@ -43,28 +73,49 @@
     border-bottom-width: 10px;
     border-right-width: 1px;
     border-left-width: 1px;
-    
-    
+       
 
 }
 
+.body-container img {
+    width:100%;
+}
+
+.body-container h2 {
+    font-size:38px;
+    color:  rgb(4, 158, 163);
+}
+.body-container h3 {
+    font-size:29px;
+    color:var(--ol) ;
+}
+
+.body-container p {
+    font-size:23px;
+}
+
+.p-code {
+    border:1px solid rgb(138, 138, 138) ;
+    border-radius: 8px;
+    background-color: white;
+    width:fit-content;
+    padding: 5px 8px;
+}
 
 /* end body container */
 
 /* start html home ol li list */
-.home-list {
+.home-list { 
     color: rgb(129, 6, 211); 
     font-size:30px;
     position: relative;
     
 }
 
-
 .home-list :only-of-type span {
     color: rgb(4, 158, 163); 
     padding: 20px;  
 } 
-
 
 .Green-triangle-sign ::before{
     content: "";
@@ -75,7 +126,7 @@
     margin: 7px 0px 0px 5px;
     border-width: 10px ;
     border-style: solid;
-    border-color: transparent transparent transparent  green;
+    border-color: transparent transparent transparent  rgb(20, 190, 20);
 }
 
 .home-list a {
@@ -84,10 +135,7 @@
     padding: 20px;   
 }
 
-
 .home-list a:hover {
     color: rgb(255, 148, 27);
     font-weight: bold;
-    text-decoration: underline; 
 }
-
