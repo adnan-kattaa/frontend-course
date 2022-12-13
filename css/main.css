@@ -77,21 +77,27 @@
 
 }
 
-.body-container img {
-    width:100%;
+.body-container h1 {
+    font-size:40px;
+    color:  rgb(4, 158, 163);
 }
 
 .body-container h2 {
-    font-size:38px;
+    font-size:30px;
     color:  rgb(4, 158, 163);
 }
+
 .body-container h3 {
-    font-size:29px;
+    font-size:23px;
     color:var(--ol) ;
 }
 
 .body-container p {
     font-size:23px;
+}
+
+.body-container img {
+    width:100%;
 }
 
 .p-code {
