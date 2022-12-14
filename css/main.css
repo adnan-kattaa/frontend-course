@@ -77,6 +77,10 @@
 
 }
 
+.body-container div {
+    margin-bottom: 10px;
+}
+
 .body-container h1 {
     font-size:40px;
     color:  rgb(4, 158, 163);
@@ -85,15 +89,21 @@
 .body-container h2 {
     font-size:30px;
     color:  rgb(4, 158, 163);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .body-container h3 {
     font-size:23px;
     color:var(--ol) ;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .body-container p {
     font-size:23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .body-container img {
