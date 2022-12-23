@@ -166,6 +166,25 @@
             </p>
           </div>
       </div>
+      <h3>iframe</h3>
+      <iframe width="400" height="315" src="https://www.youtube.com/embed/aFmXRte6Wyc?start=45" 
+              title="YouTube video player" frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+      </iframe>
+      <div class="p-code">
+        <p>
+          <pre>
+            &lt;iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/aFmXRte6Wyc?start=45" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            &lt;/iframe&gt;
+          </pre>
+        </p>
+      </div>
+
       <br>
       <hr>
       <a id="audio"></a>
@@ -177,16 +196,26 @@
           <!-- Video tag element -->
           <div class="p-code"> 
             <p>
-            &lt;audio controls &gt; <br> 
+            &lt;audio controls autoplay&gt; <br> 
               &lt;source src=" The video URL " type="audio/mp3"&gt; <br>
               The browser does not support this audio format. <br>
               &lt;/audio&gt;
             </p>
           </div>
       </div>
+      <figure>
+        <audio controls >
+          <source src="../audio/audio example.mp3" type="audio/mp3">
+          browser does not support the audio element.
+        </audio>
+        <figcaption>audio example</figcaption>
+      </figure>
       <br>
       <hr>
 
+      
+
+      <br>
       <br>
       <a class="go-up" href="#top">go to up</a>
       <br> <br>
