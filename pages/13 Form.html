@@ -97,16 +97,17 @@
     <!-- body-container -->
     <div class="body-container">
       <!-- links of page -->
-      <!-- <div class="nav-content-link" >
-        <a href="#"> </a>
-        <a href="#"> </a>
-      </div> -->
+      <div class="nav-content-link" >
+        <a href="#Method">Method</a>
+        <a href="#Form Basic Elements">Form Basic Elements</a>
+      </div>
       <!-- link of section -->
       <!-- <a id=" "></a> -->
 
       <!-- Simple Form with GET Action -->
+      <a id="Method"></a>
       <div>
-        <h2>form</h2>
+        <h2>Method</h2>
           <h3>Simple Form with <span style="color: var(--li)">GET</span> Action</h3>
           <p>GET is less secure compared to POST because data sent is part of the URL.</p>
           <p>tag is</p>
@@ -150,17 +151,127 @@
             </p>
           </div>
       </div>
-      <!-- example Simple Form with POST Action -->
-      <h3>example :</h3>
-      <a href="./some pages of contents/Post.html" target="_blank">click here</a>
-      <br><br>
       <hr>
       <!-- Form Elements -->
+      <a id="Form Basic Elements"></a>
       <div>
         <h2>Form Elements</h2>
           <h3>Form Basic Elements</h3>
+          <div class="p-code">
+            <p>
+              <form>
+                <!-- Input Box Elements -->
+                <fieldset>
+                  <legend>Input Box Elements</legend>
+                  <p>
+                    <label for="UserName">UserName :</label>
+                    <input type="text" id="UserName" name="UserName" placeholder="UserName">
+                  </p>
 
-          
+                  <p>
+                    <label for="Password">Password :</label>
+                    <input type="Password" id="Password" name="Password" placeholder="Password" required>
+                  </p>
+
+                  <p>
+                    <label for="Email">Email :</label>
+                    <input type="Email" id="Email" name="Email" placeholder="email@mail.com">
+                  </p>
+
+                  <p>
+                    <label for="Number">Number :</label>
+                    <input type="Number" id="Number" name="Number" placeholder="Number">
+                  </p>
+
+                  <p>
+                    <label for="Mobile">Mobile :</label>
+                    <input type="tel" id="Mobile" name="Mobile" placeholder="0(555) 555 4433">
+                  </p>
+
+                  <p>
+                    <label for="URL">URL :</label>
+                    <input type="URL" id="URL" name="URL" placeholder="http://somesite.com">
+                  </p>
+
+                  <p>
+                    <label for="Search">Search :</label>
+                    <input type="search" id="Search" name="Search" placeholder="Search....">
+                  </p>
+                </fieldset>
+                <!-- select element -->
+                <fieldset>
+                  <legend>Select element</legend>
+                  <p>
+                    <label for="select">Select</label>
+                    <select name="select" id="select">
+                      <optgroup label="Option Group 1">
+                        <option>Option 1 1</option>
+                        <option>Option 1 2</option>
+                        <option>Option 1 3</option>
+                      </optgroup>
+                      <optgroup label="Option Group 2">
+                        <option>Option 2 1</option>
+                        <option>Option 2 2</option>
+                        <option>Option 2 3</option>
+                      </optgroup>
+                    </select>
+                  </p>
+                </fieldset>
+                <!-- Radio Button Element -->
+                <fieldset>
+                  <legend>Radio Button Element</legend>
+                  <p>
+                    <label for="radio-option-1">option 1:</label>
+                    <input type="radio" name="radio" id="radio-option-1">
+                  </p>
+                  <p>
+                    <label for="radio-option-2">option 2:</label>
+                    <input type="radio" name="radio" id="radio-option-2" checked>
+                  </p>
+                </fieldset>
+                <!-- Checkbox Element -->
+                <fieldset>
+                  <legend>Checkbox Element</legend>
+                  <p>
+                    <label for="checkbox-red">Red :</label>
+                    <input id="checkbox-red" name="checkbox-red" type="checkbox" checked>
+                    <label for="checkbox-blue">Blue :</label>
+                    <input id="checkbox-blue" name="checkbox-blue" type="checkbox">
+                    <label for="checkbox-Green">Green :</label>
+                    <input id="checkbox-Green" name="checkbox-Green" type="checkbox">
+                  </p>
+                </fieldset>
+                <!-- TextArea Element -->
+                <fieldset>
+                  <legend>TextArea Element</legend>
+                  <p>
+                    <label for="TextArea">TextArea</label><br>
+                    <textarea name="TextArea" id="TextArea Element" cols="50" rows="10" placeholder="Enter Text here"></textarea>
+                  </p>
+                </fieldset>
+                <!-- color time Range   -->
+                <fieldset>
+                  <legend>Color + Range</legend>
+                  <p>
+                    <label for="color">Color :</label>
+                    <input id="color" name="color" type="color">
+                  </p>
+                  <p>
+                    <label for="Range">Range :</label>
+                    <input id="Range" name="Range" type="range" max="100"  min="0" step="10" value="70">
+                  </p>
+                  <p>
+                    <label for="date">Date :</label>
+                    <input id="date" name="date" type="date">
+                  </p>
+                </fieldset>
+                <p>
+                  <input type="reset" value="reset">
+                  <input type="submit" value="send">
+                </p>
+              </form>
+            </p>
+          </div>
       </div>
       <br>
       <hr>
