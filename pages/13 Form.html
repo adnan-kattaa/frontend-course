@@ -110,27 +110,27 @@
         <h2>Method</h2>
           <h3>Simple Form with <span style="color: var(--li)">GET</span> Action</h3>
           <p>GET is less secure compared to POST because data sent is part of the URL.</p>
-          <p>tag is</p>
+          <p>Tag is :</p>
           <div class="p-code">
             <p>
               <pre>
-                &lt;form method="<span style="color: var(--orange);font-size:18px;"><b>get</b></span>" action="results.html">
-                  &lt;label for="FirstName"> FirstName: &lt;/label>
-                  &lt;input type="text" name="FirstName" placeholder="Enter your First Name" id="FirstName"/>
-                  &lt;br&gt;&lt;br&gt;
-                  &lt;label for="LastName">LastName: &lt;/label>
-                  &lt;input type="text" name="LastName" placeholder="Enter your Last Name" id="LastName"/>
-                  &lt;br&gt;&lt;br&gt;
-                  &lt;input type="submit" value="send"/>
-                  &lt;input type="reset" value="Clear Form"/>
-                &lt;/form&gt;
+&lt;form method="<span style="color: var(--orange);font-size:18px;"><b>get</b></span>" action="results.html">
+  &lt;label for="FirstName"> FirstName: &lt;/label>
+  &lt;input type="text" name="FirstName" placeholder="Enter your First Name" id="FirstName"/>
+  &lt;br&gt;&lt;br&gt;
+  &lt;label for="LastName">LastName: &lt;/label>
+  &lt;input type="text" name="LastName" placeholder="Enter your Last Name" id="LastName"/>
+  &lt;br&gt;&lt;br&gt;
+  &lt;input type="submit" value="send"/>
+  &lt;input type="reset" value="Clear Form"/>
+&lt;/form&gt;
               </pre>
             </p>
           </div>
       </div>
       <!-- example Simple Form with GET Action -->
       <div>
-      <h3>example :</h3>
+      <h3>Example :</h3>
       <a href="./some pages of contents/get.html" target="_blank">click here</a>
       </div>
       <br>
@@ -141,63 +141,125 @@
           <p>POST is a little safer than GET because the parameters 
             are not stored in browser history or in web server logs
           </p>
-          <p>tag is</p>
+          <p>Tag is :</p>
           <div class="p-code">
             <p>
               <pre>
-                &lt;form method="<span style="color: var(--orange);font-size:18px;"><b>Post</b></span>" action="results.html">
-                &lt;/form&gt;
+&lt;form method="<span style="color: var(--orange);font-size:18px;"><b>Post</b></span>" action="results.html">
+&lt;/form&gt;
               </pre>
             </p>
           </div>
       </div>
       <hr>
+
       <!-- Form Elements -->
       <a id="Form Basic Elements"></a>
       <div>
         <h2>Form Elements</h2>
-          <h3>Form Basic Elements</h3>
+          <h3>Form Basic Elements with codes</h3>
+          <code>&lt;form></code>
           <div class="p-code">
             <p>
               <form>
+                <code>&lt;fieldset></code>
                 <!-- Input Box Elements -->
                 <fieldset>
-                  <legend>Input Box Elements</legend>
+                  <legend><code>&lt;legend></code> Input Box Elements <code>&lt;/legend></code></legend> 
+                  <!-- UserName -->
                   <p>
                     <label for="UserName">UserName :</label>
                     <input type="text" id="UserName" name="UserName" placeholder="UserName">
                   </p>
+                  <details>
+                    <summary><code>code</code></summary>
+<pre>
+  &lt;label for="UserName">UserName :&lt;/label>
+  &lt;input type="text" id="UserName" name="UserName" placeholder="UserName">
+</pre>
+                  </details>
 
+                  <!-- Password -->
                   <p>
                     <label for="Password">Password :</label>
                     <input type="Password" id="Password" name="Password" placeholder="Password" required>
                   </p>
+                  <details>
+                    <summary><code>code</code></summary>
+<pre>
+  &lt;label for="Password">Password :&lt;/label>
+  &lt;input type="Password" id="Password" name="Password" placeholder="Password" required>
+</pre>
+                  </details>
 
+                  <!-- Email -->
                   <p>
                     <label for="Email">Email :</label>
                     <input type="Email" id="Email" name="Email" placeholder="email@mail.com">
                   </p>
+                  <details>
+                    <summary><code>code</code></summary>
+<pre>
+  &lt;label for="Email">Email :</label>
+  &lt;input type="Email" id="Email" name="Email" placeholder="email@mail.com">
+</pre>
+                  </details>
 
+                  <!-- Number -->
                   <p>
                     <label for="Number">Number :</label>
                     <input type="Number" id="Number" name="Number" placeholder="Number">
                   </p>
+                  <details>
+                    <summary><code>code</code></summary>
+<pre>
+  &lt;label for="Number">Number :</label>
+  &lt;input type="Number" id="Number" name="Number" placeholder="Number">
+</pre>
+                  </details>
 
+                  <!-- Mobile -->
                   <p>
                     <label for="Mobile">Mobile :</label>
                     <input type="tel" id="Mobile" name="Mobile" placeholder="0(555) 555 4433">
                   </p>
+                  <details>
+                    <summary><code>code</code></summary>
+<pre>
+  &lt;label for="Mobile">Mobile :</label>
+  &lt;input type="tel" id="Mobile" name="Mobile" placeholder="0(555) 555 4433">
+</pre>
+                  </details>
 
+                  <!-- URL -->
                   <p>
                     <label for="URL">URL :</label>
                     <input type="URL" id="URL" name="URL" placeholder="http://somesite.com">
                   </p>
+                  <details>
+                    <summary><code>code</code></summary>
+<pre>
+  &lt;label for="URL">URL :</label>
+  &lt;input type="URL" id="URL" name="URL" placeholder="http://somesite.com">
+</pre>
+                  </details>
 
+                  <!-- Search -->
                   <p>
                     <label for="Search">Search :</label>
                     <input type="search" id="Search" name="Search" placeholder="Search....">
                   </p>
+                  <details>
+                    <summary><code>code</code></summary>
+<pre>
+  &lt;label for="Search">Search :</label>
+  &lt;input type="search" id="Search" name="Search" placeholder="Search....">
+</pre>
+                  </details>
+
                 </fieldset>
+                <code>&lt;/fieldset></code>
+
                 <!-- select element -->
                 <fieldset>
                   <legend>Select element</legend>
@@ -216,31 +278,72 @@
                       </optgroup>
                     </select>
                   </p>
+                  <details>
+                    <summary><code>code</code></summary>
+                    <pre>
+&lt;label for="select">Select&lt;/label>
+&lt;select name="select" id="select">
+  &lt;optgroup label="Option Group 1">
+    &lt;option> Option 1 1&lt;/option>
+    &lt;option> Option 1 2&lt;/option>
+    &lt;option> Option 1 3&lt;/option>
+  &lt;/optgroup>
+  &lt;optgroup label="Option Group 2">
+    &lt;option> Option 2 1&lt;/option>
+    &lt;option> Option 2 2&lt;/option>
+    &lt;option> Option 2 3&lt;/option>
+  &lt;/optgroup>
+&lt;/select>
+                    </pre>
+                  </details>
                 </fieldset>
+
                 <!-- Radio Button Element -->
                 <fieldset>
                   <legend>Radio Button Element</legend>
                   <p>
-                    <label for="radio-option-1">option 1:</label>
+                    <label for="radio-option-1"> male : &nbsp;&nbsp;</label>
                     <input type="radio" name="radio" id="radio-option-1">
                   </p>
                   <p>
-                    <label for="radio-option-2">option 2:</label>
+                    <label for="radio-option-2">female :</label>
                     <input type="radio" name="radio" id="radio-option-2" checked>
                   </p>
+                  <details>
+                    <summary>code</summary>
+                    <pre>
+&lt;label for="radio-option-1"> male : &lt;/label>
+&lt;input type="radio" name="radio" id="radio-option-1">
+&lt;label for="radio-option-2">female :&lt;/label>
+&lt;input type="radio" name="radio" id="radio-option-2" checked>
+                    </pre>
+                  </details>
                 </fieldset>
+
                 <!-- Checkbox Element -->
                 <fieldset>
                   <legend>Checkbox Element</legend>
                   <p>
-                    <label for="checkbox-red">Red :</label>
-                    <input id="checkbox-red" name="checkbox-red" type="checkbox" checked>
-                    <label for="checkbox-blue">Blue :</label>
-                    <input id="checkbox-blue" name="checkbox-blue" type="checkbox">
-                    <label for="checkbox-Green">Green :</label>
-                    <input id="checkbox-Green" name="checkbox-Green" type="checkbox">
+                    <label for="EN"> EN :</label>
+                    <input id="EN" name="EN" type="checkbox" checked>
+                    <label for="FR">&nbsp; FR :</label>
+                    <input id="FR" name="FR" type="checkbox">
+                    <label for="AR">&nbsp; AR :</label>
+                    <input id="AR" name="AR" type="checkbox">
                   </p>
+                  <details>
+                    <summary>code</summary>
+                    <pre>
+&lt;label for="EN"> EN :&lt;/label>
+&lt;input id="EN" name="EN" type="checkbox" checked>
+&lt;label for="FR">&nbsp; FR :&lt;/label>
+&lt;input id="FR" name="FR" type="checkbox">
+&lt;label for="AR">&nbsp; AR :&lt;/label>
+&lt;input id="AR" name="AR" type="checkbox">
+                    </pre>
+                  </details>
                 </fieldset>
+
                 <!-- TextArea Element -->
                 <fieldset>
                   <legend>TextArea Element</legend>
@@ -248,30 +351,76 @@
                     <label for="TextArea">TextArea</label><br>
                     <textarea name="TextArea" id="TextArea Element" cols="50" rows="10" placeholder="Enter Text here"></textarea>
                   </p>
+                  <details>
+                    <summary>code</summary>
+                    <pre>
+&lt;label for="TextArea">TextArea&lt;/label> &lt;br>
+&lt;textarea name="TextArea" id="TextArea Element" cols="50" rows="10" placeholder="Enter Text here">&lt;/textarea>
+                    </pre>
+                  </details>
                 </fieldset>
-                <!-- color time Range   -->
+
+                <!-- color + time + Range   -->
                 <fieldset>
-                  <legend>Color + Range</legend>
+                  <legend>Color + Range + Date</legend>
+
+                  <!-- Color -->
                   <p>
                     <label for="color">Color :</label>
                     <input id="color" name="color" type="color">
                   </p>
+                  <details>
+                    <summary>code</summary>
+                    <pre>
+&lt;label for="color">Color :&lt;/label>
+&lt;input id="color" name="color" type="color">
+                    </pre>
+                  </details>
+
+                  <!-- Range -->
                   <p>
                     <label for="Range">Range :</label>
                     <input id="Range" name="Range" type="range" max="100"  min="0" step="10" value="70">
                   </p>
+                  <details>
+                    <summary>code</summary>
+                    <pre>
+&lt;label for="Range">Range :&lt;/label>
+&lt;input id="Range" name="Range" type="range" max="100"  min="0" step="10" value="70">
+                    </pre>
+                  </details>
+
+                  <!-- Date -->
                   <p>
                     <label for="date">Date :</label>
                     <input id="date" name="date" type="date">
                   </p>
+                  <details>
+                    <summary>code</summary>
+                    <pre>
+&lt;label for="date">Date :&lt;/label>
+&lt;input id="date" name="date" type="date">
+                    </pre>
+                  </details>
+
                 </fieldset>
+
                 <p>
                   <input type="reset" value="reset">
                   <input type="submit" value="send">
                 </p>
+                <details>
+                  <summary>code</summary>
+                  <pre>
+&lt;input type="reset" value="reset">
+&lt;input type="submit" value="send">
+                  </pre>
+                </details>
+
               </form>
             </p>
           </div>
+          <code>&lt;/form></code>
       </div>
       <br>
       <hr>
